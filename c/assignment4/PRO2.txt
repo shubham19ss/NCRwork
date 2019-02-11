@@ -1,0 +1,18 @@
+A C program contains the following declaration
+
+char *color[6] = {“red”, “green”, “blue”, “white”, “black”, “yellow”};
+
+a. What is the meaning of color?
+A) color refers to the an array of pointers of type char.
+
+b. What is the meaning of (color+2);
+A) color+2 means the address of third element i.e address of "blue".
+
+c. What is the value of *color?
+A *color means the address of first string i.c address of "red".
+
+d. What is the value of *(color+2)?
+A) *(color+2) value refers to the address of third string first character.
+
+e. How do color[5] and *(color + 5) differ?.
+A) They give the value of 6th string.

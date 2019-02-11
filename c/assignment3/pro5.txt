@@ -1,0 +1,16 @@
+int x[8]= {10,20,30,40,50,60,70,80};
+
+1. What is the meaning of x?
+Ans: x refers to the starting/base address of the array
+
+2. What is the meaning of (x+2)?
+Ans: (x+2) means the address of third element in the array(address of 30)
+
+3. What is the value of *x?
+Ans: (*x) means it retrieves the value stored at x location(10)
+
+4. What is the value of (*x+2)?
+Ans: (*x+2) adds an integer value 2 to the value stored at x[0]=10. Thus result will be 12 when printed.
+
+5. What is the value of *(x+2)?
+Ans: *(x+2) means it retrieves the value stored at (x+2) locations x[2]=30
